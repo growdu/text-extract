@@ -35,7 +35,7 @@ import org.apache.pdfbox.util.Vector;
 /**
  * Example of a custom PDFGraphicsStreamEngine subclass. Allows text and graphics to be processed
  * in a custom manner. This example simply prints the operations to stdout.
- *
+ *文本和图形操作
  * <p>See {@link PDFStreamEngine} for further methods which may be overridden.
  * 
  * @author John Hewson
@@ -44,8 +44,7 @@ public class CustomGraphicsStreamEngine extends PDFGraphicsStreamEngine
 {
     public static void main(String[] args) throws IOException
     {
-        File file = new File("src/main/resources/org/apache/pdfbox/examples/rendering/",
-                             "custom-render-demo.pdf");
+        File file = new File("../pdf格式详解/table-noline.pdf");
 
         PDDocument doc = PDDocument.load(file);
         PDPage page = doc.getPage(0);

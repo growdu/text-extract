@@ -39,7 +39,7 @@ public class ParseForm extends PDFGraphicsStreamEngine {
 
 
     public static void main(String []args) throws IOException {
-        File file = new File("C:\\Users\\duanys\\Desktop\\股东大会出席\\",
+        File file = new File(
                 "有表格线无边框.PDF");
 
         try (PDDocument doc = PDDocument.load(file))

@@ -34,6 +34,7 @@ import org.apache.pdfbox.printing.PDFPageable;
 import org.apache.pdfbox.printing.PDFPrintable;
 
 /**
+ * 使用PDFBox打印PDF的各种不同方法的示例。
  * Examples of various different ways to print PDFs using PDFBox.
  */
 public final class Printing
